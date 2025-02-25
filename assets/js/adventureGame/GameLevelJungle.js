@@ -110,7 +110,7 @@ class GameLevelJungle {
     }
   
 
-    const sprite_src_monkey = path + "/images/gamify/monkeyv2.png"; // be sure to include the path
+    const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
     const sprite_data_monkey = {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
