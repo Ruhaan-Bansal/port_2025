@@ -88,8 +88,8 @@ class GameLevelJungle {
         ANIMATION_RATE: 50,
         pixels: {height: 301, width: 801},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
-        orientation: {rows: 1, columns: 1 },
-        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        orientation: {rows: 0, columns: 0 },
+        down: {row: 0, start: 0, columns: 0 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
         // GitHub command quiz 
         quiz: { 
