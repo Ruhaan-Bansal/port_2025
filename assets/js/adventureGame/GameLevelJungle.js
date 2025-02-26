@@ -19,7 +19,7 @@ class GameLevelJungle {
         name: 'desert',
         greeting: "Welcome to the jungle! It is hot and lush here, but there are many adventures to be had!",
         src: image_src_jungle,
-        pixels: {height: 580, width: 1038}
+        pixels: {height: 1024, width: 1024}
     };
 
 
@@ -51,9 +51,9 @@ class GameLevelJungle {
         id: 'Panda',
         greeting: "Hi, I am Panda! I’m so excited to spend some fun time with you in the jungle! Let’s explore together!",
         src: sprite_src_panda,
-        SCALE_FACTOR: 20,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 6,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 256, width: 352},
+        pixels: {height: 256, width: 256},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
@@ -86,7 +86,7 @@ class GameLevelJungle {
         src: sprite_src_parrot,
         SCALE_FACTOR: 6,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 301, width: 901},
+        pixels: {height: 256, width: 256},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
@@ -115,9 +115,9 @@ class GameLevelJungle {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
         src: sprite_src_monkey,
-        SCALE_FACTOR: 2,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 6,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
-        pixels: {height: 316, width: 627},
+        pixels: {height: 256, width: 256},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
