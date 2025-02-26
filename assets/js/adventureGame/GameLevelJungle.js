@@ -53,11 +53,11 @@ class GameLevelJungle {
         src: sprite_src_panda,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 256, width: 352},
+        pixels: {height: 1024, width: 1024},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
-        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+        hitbox: { widthPercentage: 0.45, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
           "title": "Panda Coding Quiz",
@@ -118,7 +118,7 @@ class GameLevelJungle {
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
         pixels: {height: 316, width: 627},
-        INIT_POSITION: { x: (width * 1), y: (height * 1)},
+        INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
