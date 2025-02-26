@@ -84,9 +84,9 @@ class GameLevelJungle {
         id: 'Parrot',
         greeting: "Hi I am Parrot! I am the multi-colored bird who is flys in the jungle!",
         src: sprite_src_parrot,
-        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 2,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 301, width: 801},
+        pixels: {height: 401, width: 901},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
@@ -115,12 +115,12 @@ class GameLevelJungle {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
         src: sprite_src_monkey,
-        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 2,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
-        pixels: {height: 32, width: 32},
+        pixels: {height: 316, width: 627},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
         orientation: {rows: 1, columns: 1 },
-        down: {row: 1, start: 0, columns: 1 }, down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
