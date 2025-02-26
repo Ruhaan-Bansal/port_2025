@@ -37,9 +37,13 @@ class GameLevelJungle {
         pixels: {height: 384, width: 512},
         orientation: {rows: 3, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },
+        downRight: {row: 1, start: 0, columns: 3, rotate: Math.PI/16 },
+        downLeft: {row: 2, start: 0, columns: 3, rotate: -Math.PI/16 },
         left: {row: 2, start: 0, columns: 3 },
         right: {row: 1, start: 0, columns: 3 },
         up: {row: 3, start: 0, columns: 3 },
+        upLeft: {row: 2, start: 0, columns: 3, rotate: Math.PI/16 },
+        upRight: {row: 1, start: 0, columns: 3, rotate: -Math.PI/16 },
         hitbox: { widthPercentage: 0.45, heightPercentage: 0.2 },
         keypress: { up: 87, left: 65, down: 83, right: 68 } // W, A, S, D
     };
@@ -53,11 +57,11 @@ class GameLevelJungle {
         src: sprite_src_panda,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 1024, width: 1024},
+        pixels: {height: 256, width: 352},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
-        hitbox: { widthPercentage: 0.45, heightPercentage: 0.2 },
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
           "title": "Panda Coding Quiz",

@@ -3,6 +3,7 @@ import GameLevelWater from './GameLevelWater.js';
 import GameLevelDesert from './GameLevelDesert.js';
 import GameLevelJungle from './GameLevelJungle.js';
 import { getStats } from "./StatsManager.js";
+import GameLevelStarWars from './GameLevelStarWars.js';
 
 
 
@@ -51,7 +52,7 @@ const GameControl = {
 
     start: function(path) {
         GameEnv.create();
-        this.levelClasses = [GameLevelDesert, GameLevelWater, GameLevelJungle];
+        this.levelClasses = [GameLevelDesert, GameLevelWater, GameLevelJungle, GameLevelStarWars];
         this.currentLevelIndex = 0;
         this.path = path;
         this.addExitKeyListener();
