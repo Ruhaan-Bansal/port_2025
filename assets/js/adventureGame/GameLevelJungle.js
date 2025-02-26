@@ -117,8 +117,8 @@ class GameLevelJungle {
         src: sprite_src_monkey,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
-        pixels: {height: 1, width: 1},
-        INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
+        pixels: {height: 316, width: 627},
+        INIT_POSITION: { x: (width * 1), y: (height * 1)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
