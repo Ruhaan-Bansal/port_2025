@@ -30,7 +30,7 @@ const createStatsUI = () => {
  * 
  * The object literal pattern is a simple way to create singleton objects in JavaScript.
  * It allows for easy grouping of related functions and properties, making the code more organized and readable.
- * In the context of GameControl, this pattern helps centralize the game's control logic, 
+ * In the context of GameControl, this pattern helps centralize the game's control logic, test
  * making it easier to manage game states, handle events, and maintain the overall flow of the game.
  * 
  * @type {Object}
