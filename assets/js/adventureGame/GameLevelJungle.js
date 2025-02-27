@@ -115,7 +115,7 @@ class GameLevelJungle {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
         src: sprite_src_monkey,
-        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
         pixels: {height: 128, width: 128},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
