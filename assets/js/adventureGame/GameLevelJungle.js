@@ -24,7 +24,7 @@ class GameLevelJungle {
 
 
     // Player data for Chillguy
-    const sprite_src_chillguy = path + "/images/gamify/chillguy.png"; // be sure to include the path
+    const sprite_src_chillguy = path + "/images/gamify/player.png"; // be sure to include the path
     const CHILLGUY_SCALE_FACTOR = 5;
     const sprite_data_chillguy = {
         id: 'Chill Guy',
@@ -110,7 +110,7 @@ class GameLevelJungle {
     }
   
 
-    const sprite_src_monkey = path + "/images/gamify/monkeyv3.png"; // be sure to include the path
+    const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
     const sprite_data_monkey = {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
