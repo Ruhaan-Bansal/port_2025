@@ -86,7 +86,7 @@ class GameLevelJungle {
         src: sprite_src_parrot,
         SCALE_FACTOR: 20,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 1024, width: 1024},
+        pixels: {height: 301, width: 801},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
