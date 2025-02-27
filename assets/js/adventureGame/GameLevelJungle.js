@@ -84,7 +84,7 @@ class GameLevelJungle {
         id: 'Parrot',
         greeting: "Hi I am Parrot! I am the multi-colored bird who is flys in the jungle!",
         src: sprite_src_parrot,
-        SCALE_FACTOR: 20,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
         pixels: {height: 301, width: 801},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
