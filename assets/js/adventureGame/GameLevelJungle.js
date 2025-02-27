@@ -51,7 +51,7 @@ class GameLevelJungle {
         id: 'Panda',
         greeting: "Hi, I am Panda! I’m so excited to spend some fun time with you in the jungle! Let’s explore together!",
         src: sprite_src_panda,
-        SCALE_FACTOR: 20,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
         pixels: {height: 256, width: 352},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
@@ -110,12 +110,12 @@ class GameLevelJungle {
     }
   
 
-    const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
+    const sprite_src_monkey = path + "/images/gamify/monkeyv3.png"; // be sure to include the path
     const sprite_data_monkey = {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
         src: sprite_src_monkey,
-        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
         pixels: {height: 128, width: 128},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
