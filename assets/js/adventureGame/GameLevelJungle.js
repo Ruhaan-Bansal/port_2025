@@ -56,7 +56,7 @@ class GameLevelJungle {
         pixels: {height: 256, width: 352},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 8, columns: 11 },
-        down: {row: 5, start: 0, columns: 5 },  // This is the stationary npc, down is default 
+        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
