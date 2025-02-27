@@ -51,12 +51,12 @@ class GameLevelJungle {
         id: 'Panda',
         greeting: "Hi, I am Panda! I’m so excited to spend some fun time with you in the jungle! Let’s explore together!",
         src: sprite_src_panda,
-        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
         pixels: {height: 256, width: 352},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
-        orientation: {rows: 1, columns: 1 },
-        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        orientation: {rows: 8, columns: 11 },
+        down: {row: 5, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
