@@ -86,7 +86,7 @@ class GameLevelJungle {
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
         pixels: {height: 316, width: 627},
-        INIT_POSITION: { x: (width / 4), y: (height / 4)},
+        INIT_POSITION: { x: (width / 4), y: (height * 1/2)},
         orientation: {rows: 3, columns: 6 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
@@ -117,7 +117,7 @@ class GameLevelJungle {
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
         pixels: {height: 301, width: 801},
-        INIT_POSITION: { x: (width / 4), y: (height / 4)},
+        INIT_POSITION: { x: (width / 4), y: (height * 3/4)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
