@@ -52,11 +52,11 @@ class GameLevelJungle {
         greeting: "Hi, I am Panda! I’m so excited to spend some fun time with you in the jungle! Let’s explore together!",
         src: sprite_src_panda,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 50,
+        ANIMATION_RATE: 100,
         pixels: {height: 256, width: 352},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 8, columns: 11 },
-        down: {row: 5, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
@@ -85,7 +85,7 @@ class GameLevelJungle {
         greeting: "Hi I am Parrot! I am the multi-colored bird who is flys in the jungle!",
         src: sprite_src_parrot,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 50,
+        ANIMATION_RATE: 100,
         pixels: {height: 301, width: 801},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
         orientation: {rows: 1, columns: 4 },
