@@ -110,7 +110,7 @@ class GameLevelJungle {
     }
   
 
-    const sprite_src_monkey = path + "/images/gamify/monkeyv4.png"; // be sure to include the path
+    const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
     const sprite_data_monkey = {
         id: 'Monkey',
         greeting: "Hi I am Monkey, the jumping and banana eater.  I am very happy to spend some time with you eating bananas!",
@@ -119,8 +119,8 @@ class GameLevelJungle {
         ANIMATION_RATE: 100,
         pixels: {height: 316,width: 627},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
-        orientation: {rows: 3, columns: 5 },
-        down: {row: 1, start: 0, columns: 5 },  // This is the stationary npc, down is default 
+        orientation: {rows: 3, columns: 6 },
+        down: {row: 1, start: 0, columns: 6 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
