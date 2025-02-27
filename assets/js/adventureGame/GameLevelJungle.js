@@ -175,7 +175,7 @@ class GameLevelJungle {
       { class: Background, data: image_data_jungle },
       { class: Player, data: sprite_data_chillguy },
       { class: Npc, data: sprite_data_panda },
-      { class: Npc, data: sprite_data_elephant}
+      { class: Npc, data: sprite_data_elephant},
       { class: Npc, data: sprite_data_parrot},
       { class: Npc, data: sprite_data_monkey },
     ];
