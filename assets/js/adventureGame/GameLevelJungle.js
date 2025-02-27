@@ -78,17 +78,17 @@ class GameLevelJungle {
       };
 
       // NPC data for Elpehant
-    const sprite_src_elephant = path + "/images/gamify/panda.png"; // be sure to include the path
+    const sprite_src_elephant = path + "/images/gamify/elephant.png"; // be sure to include the path
     const sprite_data_elephant = {
         id: 'Elephant',
         greeting: "Hi, I am the ginormous elephant! I’m so excited to spend some time with you in the jungle! Let’s explore together and have some good fun!",
         src: sprite_src_elephant,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 316, width: 627},
+        pixels: {height: 327, width: 801},
         INIT_POSITION: { x: (width / 3), y: (height / 3)},
-        orientation: {rows: 3, columns: 6 },
-        down: {row: 1, start: 0, columns: 6 },  // This is the stationary npc, down is default 
+        orientation: {rows: 1, columns: 4 },
+        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: {
