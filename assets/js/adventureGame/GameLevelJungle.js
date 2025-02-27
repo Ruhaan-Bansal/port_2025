@@ -85,7 +85,7 @@ class GameLevelJungle {
         src: sprite_src_elephant,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 327, width: 801},
+        pixels: {height: 301, width: 801},
         INIT_POSITION: { x: (width / 3), y: (height / 3)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
