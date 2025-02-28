@@ -16,7 +16,7 @@ const createStatsUI = () => {
     statsContainer.style.padding = '10px';
     statsContainer.style.borderRadius = '5px';
     statsContainer.innerHTML = `
-        <div>Balance: <span id="balance">0</span></div>
+        <div>Dollars: <span id="Dollars">0</span></div>
         <div>Chat Score: <span id="chatScore">0</span></div>
         <div>Questions Answered: <span id="questionsAnswered">0</span></div>
     `;
@@ -256,7 +256,7 @@ const GameControl = {
         statsContainer.style.padding = '10px';
         statsContainer.style.borderRadius = '5px';
         statsContainer.innerHTML = `
-            <div>Balance: <span id="balance">0</span></div>
+            <div>Dollars: <span id="Dollars">0</span></div>
             <div>Chat Score: <span id="chatScore">0</span></div>
             <div>Questions Answered: <span id="questionsAnswered">0</span></div>
         `;
