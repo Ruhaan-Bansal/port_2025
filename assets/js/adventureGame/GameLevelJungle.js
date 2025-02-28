@@ -109,7 +109,7 @@ class GameLevelJungle {
       const sprite_src_colllision = path + "/images/gamify/collision.png"; // be sure to include the path
       const sprite_data_collision = {
           id: 'Collision',
-          greeting: "Hi, to move on in this game, you must answer some questions about the sport of tennis.",
+          greeting: "Hi, to move on in this game, you must answer some questions about the sport of coding. Press e to answer!",
           src: sprite_src_colllision,
           SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
           ANIMATION_RATE: 50,
