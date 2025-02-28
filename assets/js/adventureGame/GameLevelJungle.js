@@ -105,66 +105,38 @@ class GameLevelJungle {
           ]
         }        
       };
+     
 
-    // NPC data for Parrot
-    const sprite_src_parrot = path + "/images/gamify/parrot.png"; // be sure to include the path
-    const sprite_data_parrot = {
-      id: 'Parrot',
-      greeting: "Hi I am Parrot! I am the multi-colored bird who is fls in the jungle!",
-      src: sprite_src_parrot,
-      SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
-      ANIMATION_RATE: 100,
-      pixels: {height: 301, width: 801},
-      INIT_POSITION: { x: (width * 2/3), y: (height * 1/6)},
-      orientation: {rows: 1, columns: 4 },
-      down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
-      hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
-      // GitHub command quiz 
-      quiz: { 
-        title: "Parrot Coding Command Quiz",
-        questions: [
-          "Which command is used to clone a repository?\n1. git clone\n2. git fork\n3. git copy\n4. git download",
-          "Which command is used to add changes to the staging area?\n1. git add\n2. git stage\n3. git commit\n4. git push",
-          "Which command is used to commit changes?\n1. git commit\n2. git add\n3. git save\n4. git push",
-          "Which command is used to push changes to a remote repository?\n1. git push\n2. git upload\n3. git send\n4. git commit",
-          "Which command is used to pull changes from a remote repository?\n1. git pull\n2. git fetch\n3. git receive\n4. git update",
-          "Which command is used to check the status of the working directory and staging area?\n1. git status\n2. git check\n3. git info\n4. git log",
-          "Which command is used to create a new branch?\n1. git branch\n2. git create-branch\n3. git new-branch\n4. git checkout",
-          "Which   command is used to switch to a different branch?\n1. git checkout\n2. git switch\n3. git change-branch\n4. git branch",
-          "Which command is used to merge branches?\n1. git merge\n2. git combine\n3. git join\n4. git integrate",
-          "Which command is used to view the commit history?\n1. git log\n2. git history\n3. git commits\n4. git show"
-        ] 
-      }
-    };
-
-    const sprite_src_collision = path + "/images/gamify/collision.png"; // be sure to include the path
-    const sprite_data_collision = {
-      id: 'Collision',
-      greeting: "Hi, to move on in the game you must answer some cool questions. Press e to start answering questions!",
-      src: sprite_src_collision,
-      SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
-      ANIMATION_RATE: 50,
-      pixels: {height: 128, width: 128},
-      INIT_POSITION: { x: (width / 4), y: (height * 1/6)},
-      orientation: {rows: 1, columns: 1 },
-      down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
-      hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },   
-      quiz: { 
-        title: "Obstacle Quiz about Tennis",
-        questions: [
-          "Which tournament is part of the Grand Slam?\n1. Wimbledon\n2. Indian Wells\n3. Miami Open\n4. Laver Cup",
-          "Which surface is used in the French Open?\n1. Clay\n2. Grass\n3. Hard Court\n4. Carpet",
-          "Who has won the most Grand Slam titles in men's tennis?\n1. Novak Djokovic\n2. Rafael Nadal\n3. Roger Federer\n4. Pete Sampras",
-          "Which term is used for a score of 40-40 in tennis?\n1. Deuce\n2. Love\n3. Advantage\n4. Break Point",
-          "Which female tennis player has won the most Grand Slam singles titles?\n1. Serena Williams\n2. Margaret Court\n3. Steffi Graf\n4. Martina Navratilova",
-          "What is the term for winning all four Grand Slam tournaments in a calendar year?\n1. Calendar Grand Slam\n2. Golden Slam\n3. Career Grand Slam\n4. ATP Slam",
-          "Which country hosts the Australian Open?\n1. Australia\n2. United States\n3. United Kingdom\n4. France",
-          "What is the maximum number of sets in a men's Grand Slam match?\n1. 5\n2. 3\n3. 4\n4. 2",
-          "Which shot is hit before the ball bounces?\n1. Volley\n2. Forehand\n3. Backhand\n4. Lob",
-          "What is the name of the area between the singles and doubles sidelines?\n1. Doubles Alley\n2. Service Box\n3. No-Man’s Land\n4. Baseline"
-        ] 
-       }   
-     };
+      // NPC data for Parrot
+      const sprite_src_parrot = path + "/images/gamify/parrot.png"; // be sure to include the path
+      const sprite_data_parrot = {
+        id: 'Parrot',
+        greeting: "Hi I am Parrot! I am the multi-colored bird who is fls in the jungle!",
+        src: sprite_src_parrot,
+        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
+        ANIMATION_RATE: 100,
+        pixels: {height: 301, width: 801},
+        INIT_POSITION: { x: (width * 2/3), y: (height * 1/6)},
+        orientation: {rows: 1, columns: 4 },
+        down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
+        // GitHub command quiz 
+        quiz: { 
+          title: "Parrot Coding Command Quiz",
+          questions: [
+            "Which command is used to clone a repository?\n1. git clone\n2. git fork\n3. git copy\n4. git download",
+            "Which command is used to add changes to the staging area?\n1. git add\n2. git stage\n3. git commit\n4. git push",
+            "Which command is used to commit changes?\n1. git commit\n2. git add\n3. git save\n4. git push",
+            "Which command is used to push changes to a remote repository?\n1. git push\n2. git upload\n3. git send\n4. git commit",
+            "Which command is used to pull changes from a remote repository?\n1. git pull\n2. git fetch\n3. git receive\n4. git update",
+            "Which command is used to check the status of the working directory and staging area?\n1. git status\n2. git check\n3. git info\n4. git log",
+            "Which command is used to create a new branch?\n1. git branch\n2. git create-branch\n3. git new-branch\n4. git checkout",
+            "Which   command is used to switch to a different branch?\n1. git checkout\n2. git switch\n3. git change-branch\n4. git branch",
+            "Which command is used to merge branches?\n1. git merge\n2. git combine\n3. git join\n4. git integrate",
+            "Which command is used to view the commit history?\n1. git log\n2. git history\n3. git commits\n4. git show"
+          ] 
+        }
+    }
 
     const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
     const sprite_data_monkey = {
@@ -205,7 +177,6 @@ class GameLevelJungle {
       { class: Npc, data: sprite_data_elephant},
       { class: Npc, data: sprite_data_parrot},
       { class: Npc, data: sprite_data_monkey },
-      { class: Npc, data: sprite_src_collision}
     ];
   }
 
