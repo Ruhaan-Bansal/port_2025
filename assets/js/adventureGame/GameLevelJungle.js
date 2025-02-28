@@ -101,7 +101,7 @@ class GameLevelJungle {
             "What is the correct way to reference an external CSS file?\n1. <link rel='stylesheet' href='styles.css'>\n2. <style src='styles.css'>\n3. <css file='styles.css'>\n4. <script href='styles.css'>",
             "How do you center an element horizontally using CSS?\n1. margin: auto;\n2. align: center;\n3. text-align: middle;\n4. float: center;",
             "Which HTML tag is used for creating an unordered list?\n1. <ul>\n2. <ol>\n3. <list>\n4. <li>",
-            "What is the purpose of the <meta> tag in HTML?\n1. To provide metadata about the document\n2. To create a navigation menu\n3. To define the main content area\n4. To embed images"
+            "What is the purpose of the <meta> tag in HTML?\n1. To provide metadatasrc: sprite_src_elephant, about the document\n2. To create a navigation menu\n3. To define the main content area\n4. To embed images"
           ]
         }        
       };
@@ -109,27 +109,29 @@ class GameLevelJungle {
       const sprite_src_colllision = path + "/images/gamify/collision.png"; // be sure to include the path
       const sprite_data_collision = {
           id: 'Collision',
-          greeting: "Hi, I am the ginormous elephant! I’m so excited to spend some time with you in the jungle! Let’s explore together and have some good fun!",
+          greeting: "Hi, to move on in this game, you must answer some questions about the sport of tennis.",
           src: sprite_src_colllision,
           SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
           ANIMATION_RATE: 50,
           pixels: {height: 128, width: 128},
-          INIT_POSITION: { x: (width / 2), y: (height * 11/20)},
+          INIT_POSITION: { x: (width / 6), y: (height / 6)},
           orientation: {rows: 1, columns: 1 },
           down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
           hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
           // Linux command quiz
           quiz: {
-            "title": "Elephant HTML Coding Quiz",
+            "title": "Tennis Quiz",
             "questions": [
-              "Which HTML tag is used to define the largest heading?\n1. <h1>\n2. <h6>\n3. <header>\n4. <h0>",
-              "Which tag is used to create a hyperlink in HTML?\n1. <a>\n2. <link>\n3. <href>\n4. <url>",
-              "Which CSS property is used to change text color?\n1. color\n2. text-color\n3. font-color\n4. bgcolor",
-              "Which unit is relative to the font size of the root element in CSS?\n1. rem\n2. em\n3. px\n4. vh",
-              "What is the correct way to reference an external CSS file?\n1. <link rel='stylesheet' href='styles.css'>\n2. <style src='styles.css'>\n3. <css file='styles.css'>\n4. <script href='styles.css'>",
-              "How do you center an element horizontally using CSS?\n1. margin: auto;\n2. align: center;\n3. text-align: middle;\n4. float: center;",
-              "Which HTML tag is used for creating an unordered list?\n1. <ul>\n2. <ol>\n3. <list>\n4. <li>",
-              "What is the purpose of the <meta> tag in HTML?\n1. To provide metadata about the document\n2. To create a navigation menu\n3. To define the main content area\n4. To embed images"
+              "Which tournament is part of the Grand Slam?\n1. Wimbledon\n2. Indian Wells\n3. Miami Open\n4. Laver Cup",
+              "Which surface is used in the French Open?\n1. Clay\n2. Grass\n3. Hard Court\n4. Carpet",
+              "Who has won the most Grand Slam titles in men's tennis?\n1. Novak Djokovic\n2. Rafael Nadal\n3. Roger Federer\n4. Pete Sampras",
+              "Which term is used for a score of 40-40 in tennis?\n1. Deuce\n2. Love\n3. Advantage\n4. Break Point",
+              "Which female tennis player has won the most Grand Slam singles titles?\n1. Serena Williams\n2. Margaret Court\n3. Steffi Graf\n4. Martina Navratilova",
+              "What is the term for winning all four Grand Slam tournaments in a calendar year?\n1. Calendar Grand Slam\n2. Golden Slam\n3. Career Grand Slam\n4. ATP Slam",
+              "Which country hosts the Australian Open?\n1. Australia\n2. United States\n3. United Kingdom\n4. France",
+              "What is the maximum number of sets in a men's Grand Slam match?\n1. 5\n2. 3\n3. 4\n4. 2",
+              "Which shot is hit before the ball bounces?\n1. Volley\n2. Forehand\n3. Backhand\n4. Lob",
+              "What is the name of the area between the singles and doubles sidelines?\n1. Doubles Alley\n2. Service Box\n3. No-Man’s Land\n4. Baseline"
             ]
           }        
         }; 
