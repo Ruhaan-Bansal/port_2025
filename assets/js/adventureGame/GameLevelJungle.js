@@ -137,7 +137,6 @@ class GameLevelJungle {
           ] 
         }
     }
-  
 
     const sprite_src_monkey = path + "/images/gamify/monkey.png"; // be sure to include the path
     const sprite_data_monkey = {
@@ -170,35 +169,6 @@ class GameLevelJungle {
       };
   
 
-      // NPC data for Bird
-    const sprite_src_bird = path + "/images/gamify/toucan.png"; // be sure to include the path
-    const sprite_data_bird = {
-        id: 'Bird',
-        greeting: "Hi, I am the toucan! I’m so excited to spend some time with you in the jungle! Let’s explore together and have some good fun!",
-        src: sprite_src_bird,
-        SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 50,
-        pixels: {height: 316, width: 627},
-        INIT_POSITION: { x: (width / 4), y: (height * 1/6)},
-        orientation: {rows: 3, columns: 6 },
-        down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
-        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
-        // Linux command quiz
-        quiz: { 
-          title: "Toucan Coding Command Quiz",
-          questions: [
-              "Which data type is used to declare whole numbers in C++?\n1. int\n2. float\n3. double\n4. char",
-              "Which keyword is used to define a constant in C++?\n1. const\n2. static\n3. final\n4. constant",
-              "Which C++ loop is guaranteed to execute at least once?\n1. for\n2. while\n3. do-while\n4. foreach",
-              "Which operator is used for dynamic memory allocation in C++?\n1. malloc\n2. alloc\n3. new\n4. create",
-              "What is the default access specifier for members of a class in C++?\n1. private\n2. public\n3. protected\n4. internal",
-              "Which library must be included to use the 'cout' object in C++?\n1. <iostream>\n2. <stdio.h>\n3. <string>\n4. <stdlib.h>",
-              "Which symbol is used for single-line comments in C++?\n1. //\n2. /* */\n3. --\n4. #",
-              "Which function is the entry point of every C++ program?\n1. main()\n2. start()\n3. execute()\n4. run()"
-          ]
-        }      
-      };
-
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_jungle },
@@ -207,7 +177,6 @@ class GameLevelJungle {
       { class: Npc, data: sprite_data_elephant},
       { class: Npc, data: sprite_data_parrot},
       { class: Npc, data: sprite_data_monkey },
-      { class: Npc, data: sprite_data_bird },
     ];
   }
 
