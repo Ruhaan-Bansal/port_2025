@@ -111,7 +111,7 @@ class GameLevelJungle {
       const sprite_src_parrot = path + "/images/gamify/parrot.png"; // be sure to include the path
       const sprite_data_parrot = {
         id: 'Parrot',
-        greeting: "Hi I am Parrot! I am the multi-colored bird who is flys in the jungle!",
+        greeting: "Hi I am Parrot! I am the multi-colored bird who is fls in the jungle!",
         src: sprite_src_parrot,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
@@ -171,32 +171,32 @@ class GameLevelJungle {
   
 
       // NPC data for Bird
-    const sprite_src_bird = path + "/images/gamify/panda.png"; // be sure to include the path
+    const sprite_src_bird = path + "/images/gamify/toucan.png"; // be sure to include the path
     const sprite_data_bird = {
         id: 'Bird',
-        greeting: "Hi, I am the ginormous bird! I’m so excited to spend some time with you in the jungle! Let’s explore together and have some good fun!",
+        greeting: "Hi, I am the toucan! I’m so excited to spend some time with you in the jungle! Let’s explore together and have some good fun!",
         src: sprite_src_bird,
         SCALE_FACTOR: 5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
         pixels: {height: 316, width: 627},
-        INIT_POSITION: { x: (width / 4), y: (height * 3/5)},
+        INIT_POSITION: { x: (width / 4), y: (height * 1/6)},
         orientation: {rows: 3, columns: 6 },
         down: {row: 1, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
-        quiz: {
-          "title": "Elephant HTML Coding Quiz",
-          "questions": [
-            "Which HTML tag is used to define the largest heading?\n1. <h1>\n2. <h6>\n3. <header>\n4. <h0>",
-            "Which tag is used to create a hyperlink in HTML?\n1. <a>\n2. <link>\n3. <href>\n4. <url>",
-            "Which CSS property is used to change text color?\n1. color\n2. text-color\n3. font-color\n4. bgcolor",
-            "Which unit is relative to the font size of the root element in CSS?\n1. rem\n2. em\n3. px\n4. vh",
-            "What is the correct way to reference an external CSS file?\n1. <link rel='stylesheet' href='styles.css'>\n2. <style src='styles.css'>\n3. <css file='styles.css'>\n4. <script href='styles.css'>",
-            "How do you center an element horizontally using CSS?\n1. margin: auto;\n2. align: center;\n3. text-align: middle;\n4. float: center;",
-            "Which HTML tag is used for creating an unordered list?\n1. <ul>\n2. <ol>\n3. <list>\n4. <li>",
-            "What is the purpose of the <meta> tag in HTML?\n1. To provide metadata about the document\n2. To create a navigation menu\n3. To define the main content area\n4. To embed images"
+        quiz: { 
+          title: "Toucan Coding Command Quiz",
+          questions: [
+              "Which data type is used to declare whole numbers in C++?\n1. int\n2. float\n3. double\n4. char",
+              "Which keyword is used to define a constant in C++?\n1. const\n2. static\n3. final\n4. constant",
+              "Which C++ loop is guaranteed to execute at least once?\n1. for\n2. while\n3. do-while\n4. foreach",
+              "Which operator is used for dynamic memory allocation in C++?\n1. malloc\n2. alloc\n3. new\n4. create",
+              "What is the default access specifier for members of a class in C++?\n1. private\n2. public\n3. protected\n4. internal",
+              "Which library must be included to use the 'cout' object in C++?\n1. <iostream>\n2. <stdio.h>\n3. <string>\n4. <stdlib.h>",
+              "Which symbol is used for single-line comments in C++?\n1. //\n2. /* */\n3. --\n4. #",
+              "Which function is the entry point of every C++ program?\n1. main()\n2. start()\n3. execute()\n4. run()"
           ]
-        }        
+        }      
       };
 
     // List of objects defnitions for this level
