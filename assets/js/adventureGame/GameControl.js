@@ -50,7 +50,7 @@ const GameControl = {
 
     start: function(path) {
         GameEnv.create();
-        this.levelClasses = [GameLevelDesert, GameLevelWater, GameLevelJungle];
+        this.levelClasses = [GameLevelJungle];
         this.currentLevelIndex = 0;
         this.path = path;
         this.addExitKeyListener();
