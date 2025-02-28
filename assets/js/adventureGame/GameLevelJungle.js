@@ -122,16 +122,16 @@ class GameLevelJungle {
           quiz: {
             "title": "Tennis Quiz",
             "questions": [
-              "Which tournament is part of the Grand Slam?\n1. Wimbledon\n2. Indian Wells\n3. Miami Open\n4. Laver Cup",
-              "Which surface is used in the French Open?\n1. Clay\n2. Grass\n3. Hard Court\n4. Carpet",
-              "Who has won the most Grand Slam titles in men's tennis?\n1. Novak Djokovic\n2. Rafael Nadal\n3. Roger Federer\n4. Pete Sampras",
-              "Which term is used for a score of 40-40 in tennis?\n1. Deuce\n2. Love\n3. Advantage\n4. Break Point",
-              "Which female tennis player has won the most Grand Slam singles titles?\n1. Serena Williams\n2. Margaret Court\n3. Steffi Graf\n4. Martina Navratilova",
-              "What is the term for winning all four Grand Slam tournaments in a calendar year?\n1. Calendar Grand Slam\n2. Golden Slam\n3. Career Grand Slam\n4. ATP Slam",
-              "Which country hosts the Australian Open?\n1. Australia\n2. United States\n3. United Kingdom\n4. France",
-              "What is the maximum number of sets in a men's Grand Slam match?\n1. 5\n2. 3\n3. 4\n4. 2",
-              "Which shot is hit before the ball bounces?\n1. Volley\n2. Forehand\n3. Backhand\n4. Lob",
-              "What is the name of the area between the singles and doubles sidelines?\n1. Doubles Alley\n2. Service Box\n3. No-Man’s Land\n4. Baseline"
+              "Which data structure follows Last In, First Out (LIFO) principle?\n1. Queue\n2. Stack\n3. Linked List\n4. Heap",  
+              "What is the time complexity of searching an element in a balanced binary search tree (BST)?\n1. O(1)\n2. O(log n)\n3. O(n)\n4. O(n log n)",  
+              "Which of the following is NOT a valid variable name in Java?\n1. _myVariable\n2. 1stVariable\n3. $money\n4. camelCase",  
+              "What does the following JavaScript code output?\nconsole.log(typeof null);\n1. 'null'\n2. 'undefined'\n3. 'object'\n4. 'string'",  
+              "In SQL, which command is used to remove all records from a table without deleting the table itself?\n1. DELETE\n2. DROP\n3. TRUNCATE\n4. REMOVE",  
+              "What is the output of the following C code?\n#include <stdio.h>\nint main() { int x = 5; printf('%d', x++); return 0; }\n1. 4\n2. 5\n3. 6\n4. Undefined behavior",  
+              "What will be the output of this Python code?\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n1. [1, 2, 3]\n2. [1, 2, 3, 4]\n3. [1, 2, 3], [1, 2, 3, 4]\n4. Error",  
+              "What does the len() function return when applied to a dictionary in Python?\n1. Number of keys\n2. Number of values\n3. Number of key-value pairs\n4. The size in bytes",  
+              "What will be the output of this JavaScript snippet?\nconsole.log(0 == '0');\nconsole.log(0 === '0');\n1. true, true\n2. false, false\n3. true, false\n4. false, true",  
+              "Which sorting algorithm has the worst-case time complexity of O(n²)?\n1. Merge Sort\n2. Quick Sort\n3. Bubble Sort\n4. Heap Sort"  
             ]
           }        
         }; 
