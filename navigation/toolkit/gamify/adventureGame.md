@@ -80,12 +80,12 @@ permalink: /gamify/adventureGame
 </style>
 
 <!-- Score & Stats -->
-<div id="score" style="position: absolute; top: 75px; left: 10px; color: black; font-size: 20px; background-color: white;">
+<div id="score" style="position: absolute; top: 75px; left: 10px; color: white; font-size: 20px; background-color: #40E0D0;">
    Time: <span id="timeScore">0</span>
 </div>
 
-<div id="stats-container" style="position: absolute; top: 120px; left: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; border-radius: 5px;">
-    <div>Balance: <span id="balance">0</span></div>
+<div id="stats-container" style="position: absolute; top: 120px; left: 10px; background-color: #40E0D0; color: white; padding: 10px; border-radius: 5px;">
+    <div>Dollars: <span id="Dollars">0</span></div>
     <div>Chat Score: <span id="chatScore">0</span></div>
     <div>Questions Answered: <span id="questionsAnswered">0</span></div>
     
@@ -166,7 +166,7 @@ permalink: /gamify/adventureGame
     // Function to track NPC interactions
     function trackNpcInteraction() {
         // List of possible NPCs to track (in order)
-        const possibleNpcs = ["Tux", "Octocat", "Linux Robot"];
+        const possibleNpcs = ["Monkey", "Panda", "Elephant", "Parrot" ];
 
         // If the player hasn't interacted yet, add the next NPC in order
         if (npcTracker.length < possibleNpcs.length) {
